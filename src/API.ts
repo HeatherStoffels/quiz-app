@@ -8,7 +8,7 @@ export type Question = {
     question: string;
     type: string;
 }
-export type questionState = Question & {answers: string};
+export type questionState = Question & {answers: string[]};
 
 export enum Difficulty{
     EASY = "easy",
